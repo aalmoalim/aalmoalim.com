@@ -1,19 +1,20 @@
-# Custom Domain Setup: aalmoalim.com
+# Custom Domain Setup: aalmoalim.co.uk
 
 ## ✅ What I've Done
 
-1. ✅ Created `CNAME` file with `aalmoalim.com`
-2. ✅ Updated all URLs in sitemap.xml to use `aalmoalim.com`
+1. ✅ Created `CNAME` file with `aalmoalim.co.uk`
+2. ✅ Updated all URLs in sitemap.xml to use `aalmoalim.co.uk`
 3. ✅ Updated all canonical URLs in HTML files
 4. ✅ Updated Open Graph URLs
-5. ✅ Pushed changes to GitHub
+5. ✅ Updated robots.txt
+6. ✅ Pushed changes to GitHub
 
 ## 🔧 Next Steps: Configure GitHub Pages
 
 ### Step 1: Add Custom Domain in GitHub
 
 1. Go to: https://github.com/aalmoalim/aalmoalim.com/settings/pages
-2. Under **"Custom domain"**, enter: `aalmoalim.com`
+2. Under **"Custom domain"**, enter: `aalmoalim.co.uk`
 3. Check **"Enforce HTTPS"** (recommended)
 4. Click **Save**
 
@@ -47,7 +48,7 @@ Add **1 CNAME record**:
 ### Step 3: Wait for DNS Propagation
 
 - DNS changes can take **15 minutes to 48 hours** to propagate
-- Check DNS propagation: https://www.whatsmydns.net/#A/aalmoalim.com
+- Check DNS propagation: https://www.whatsmydns.net/#A/aalmoalim.co.uk
 
 ### Step 4: Verify Domain
 
@@ -66,15 +67,15 @@ Add **1 CNAME record**:
 After DNS propagates:
 
 1. **Test your site:**
-   - http://aalmoalim.com (should redirect to HTTPS)
-   - https://aalmoalim.com (should work)
+   - http://aalmoalim.co.uk (should redirect to HTTPS)
+   - https://aalmoalim.co.uk (should work)
 
 2. **Test sitemap:**
-   - https://aalmoalim.com/sitemap.xml
+   - https://aalmoalim.co.uk/sitemap.xml
 
 3. **Update Google Search Console:**
-   - Add new property: `https://aalmoalim.com`
-   - Submit sitemap: `https://aalmoalim.com/sitemap.xml`
+   - Add new property: `https://aalmoalim.co.uk`
+   - Submit sitemap: `https://aalmoalim.co.uk/sitemap.xml`
 
 ## 📝 Common Domain Registrars
 
@@ -100,7 +101,7 @@ After DNS propagates:
 - **Don't remove the CNAME file** - GitHub needs it
 - **Keep DNS records** - Don't delete them after setup
 - **HTTPS is automatic** - GitHub provides free SSL certificates
-- **Both www and non-www:** If you want `www.aalmoalim.com` too, add it as an additional custom domain in GitHub Pages
+- **Both www and non-www:** If you want `www.aalmoalim.co.uk` too, add it as an additional custom domain in GitHub Pages
 
 ## 🆘 Troubleshooting
 
